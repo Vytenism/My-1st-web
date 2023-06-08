@@ -1,0 +1,355 @@
+body {
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    justify-content: center;
+}
+
+/* Navigation */
+
+.container {
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    gap: 0.5rem;
+    /* background-color: #e66bc7; */
+    background-color: #6200d9;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vh;
+    height: 3rem;
+    position: fixed;
+}
+
+.nav-bar {
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* main source */
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    width: 100%;
+}
+
+p, ul {
+    width: 40vh;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+h2 {
+    width: 40vh;
+    font-size: 2rem;
+}
+
+/* introduction */
+
+
+.main-section > div[class="section-1"] {
+    background-image: url(../assets/images/Geometric\ Curve.jpg);
+    background-size: 100%;
+    background-position: center;
+    color: black;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+h1 {
+    width: 40vh;
+    font-size: 2.25rem;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+/* About me */
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #9a14d8e7;
+    color: aliceblue;
+}
+
+
+img {
+    height: 200px; 
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 1rem;
+}
+
+/* Skills & Interests */
+
+.main-section-2 {
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    width: 100%;
+}
+
+.section-3-4 {
+    display: grid;
+    width: 100vh;
+    background-color: #8200d9;
+    grid-template-columns: 45vh 45vh;
+    justify-content: space-around;
+    color: aliceblue;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Expierences */
+
+.exp-section {
+    height: 70vh;
+}
+
+.section-5 {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #8200d9;;
+    color: aliceblue;
+}
+
+.container-2 {
+    width: 90%;
+    height: 48vh;
+    display: grid;
+    grid-template: 24vh 24vh / 45vh 45vh;
+    gap: 01rem;
+}
+
+.grid {
+    display: grid;
+    grid-template: 4vh 10vh 10vh / 22.5vh 22.5vh;
+    gap: 0.5rem;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+}
+
+.costum {
+    grid-column: span 2;
+    background-color: #8200d9;
+}
+
+.hb-1 {
+    background-image: url(../assets/images/Expierences/skiing.jpg);
+    background-size: cover;
+}
+
+.hb-2 {
+    background-image: url(../assets/images/Expierences/basketball.jpg);
+    background-size: cover;
+}
+
+.hb-3 {
+    background-image: url(../assets/images/Expierences/cycling.jpg);
+    background-size: cover;
+}
+
+.hb-4 {
+    background-image: url(../assets/images/Expierences/workout.jpg);
+    background-size: cover;
+}
+
+.lgc-1 {
+    background-image: url(../assets/images/Expierences/logistics1.jpg);
+    background-size: cover;
+    font-weight: 900;
+}
+
+.lgc-2 {
+    background-image: url(../assets/images/Expierences/logistics2.jpg);
+    background-size: cover;
+    font-weight: 900;
+}
+
+.lgc-3 {
+    background-image: url(../assets/images/Expierences/logistics3.jpg);
+    background-size: cover;
+    font-weight: 900;
+}
+
+.lgc-4 {
+    background-image: url(../assets/images/Expierences/logistics4.jpg);
+    background-size: cover;
+    font-weight: 900;
+}
+
+.srv-1 {
+    background-image: url(../assets/images/Expierences/MS.jpg);
+    background-size: cover;
+    color: black;
+    font-weight: 900;
+}
+
+.srv-2 {
+    background-image: url(../assets/images/Expierences/casino.jpg);
+    background-size: cover;
+    font-weight: 900;
+}
+
+.srv-3 {
+    background-image: url(../assets/images/Expierences/hotel.jpg);
+    background-size: cover;
+    font-weight: 900;
+}
+
+.srv-4 {
+    background-image: url(../assets/images/Expierences/delivery.png);
+    background-size: cover;
+    color: black;
+    font-weight: 900;
+}
+
+/* .prg-1 {
+    background-image: url(../assets/images/Expierences/html.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.prg-2 {
+    background-image: url(../assets/images/Expierences/CSS.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.prg-3 {
+    background-image: url(../assets/images/Expierences/JS.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.prg-4 {
+    background-image: url(../assets/images/Expierences/Bootstrap.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+
+.prg-1 {
+    background-image: url(../assets/images/Expierences/flag.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.prg-2 {
+    background-image: url(../assets/images/Expierences/quadrilaterals.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.prg-3 {
+    background-image: url(../assets/images/Expierences/web.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.prg-4 {
+    background-image: url(../assets/images/Expierences/dogs.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+div[class="item programing prg-1"] a{
+    width: 100%;
+    height: 100%;
+}
+
+div[class="item programing prg-2"] a{
+    width: 100%;
+    height: 100%;
+}
+
+div[class="item programing prg-3"] a{
+    width: 100%;
+    height: 100%;
+}
+
+div[class="item programing prg-4"] a {
+    width: 100%;
+    height: 100%;
+}
+/* Contact info  */
+
+.section-6 {
+    display: flex;
+    width: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #9a14d8e7;
+    color: aliceblue;
+}
+
+/* footer */
+
+.footer-section {
+    height: 2rem;
+}
+
+.section-7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    color: aliceblue;
+    background-color: #8200d9;
+}
+
+.section-7 > h3 {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+}
